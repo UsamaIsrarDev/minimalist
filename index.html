@@ -2,40 +2,67 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Usama Israr | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Usama Israr</h1>
-    <p>Web Developer & MERN Stack Enthusiast</p>
+    <nav>
+      <h1>Usama Israr</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Theme toggle button -->
+      <button id="theme-toggle">🌙 Dark Mode</button>
+    </nav>
+    <div class="hero">
+      <h2>Web Developer & MERN Stack Enthusiast</h2>
+      <p>I build modern, clean, responsive websites and web apps.</p>
+    </div>
   </header>
 
   <main>
     <section id="about">
       <h2>About Me</h2>
-      <p>Hi! I'm Usama Israr, a passionate web developer specializing in modern frontend and backend technologies. I love building clean, responsive, and user-friendly websites.</p>
+      <p>Hi! I'm Usama Israr, a passionate web developer specializing in the MERN stack. I love building clean, responsive, and user-friendly digital experiences.</p>
     </section>
 
     <section id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li>Responsive Website Clone</li>
-        <li>Quiz Application</li>
-        <li>University Event Management System</li>
-      </ul>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Responsive Website Clone</h3>
+          <p>A modern clone of a popular website with interactive UI/UX.</p>
+        </div>
+        <div class="project-card">
+          <h3>Quiz Application</h3>
+          <p>Sign-up, dashboard, and dynamic quizzes built with JS and Firebase.</p>
+        </div>
+        <div class="project-card">
+          <h3>Event Management System</h3>
+          <p>Full-stack MERN app to manage university events with admin panel.</p>
+        </div>
+      </div>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>Email: usamaisrar@example.com</p>
-      <p>GitHub: <a href="https://github.com/usamaisrar" target="_blank">github.com/usamaisrar</a></p>
+      <p>Email: usamaisrar1190@gmail.com</p>
+      <p>
+        <a href="https://github.com/UsamaIsrarDev" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/usamaisrar" target="_blank">LinkedIn</a>
+      </p>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 Usama Israr</p>
   </footer>
+
+  <!-- Link JS file -->
+  <script src="script.js"></script>
 </body>
 </html>
