@@ -1,4 +1,4 @@
-# Usama Israr | Portfolio
+# Usama Israr | Minimalist
 
 👋 Welcome to my personal portfolio repository!
 This is a **simple, clean, and responsive portfolio website** built with **HTML, CSS, and JavaScript**, deployed live using **GitHub Pages**.
